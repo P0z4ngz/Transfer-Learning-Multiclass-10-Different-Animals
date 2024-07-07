@@ -34,4 +34,5 @@ The notebook itself covers some methods:
 11. Visualize dataset scores performance into dataframe and plot the [F1-score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html)
 
 ## Log
+08 July 2024: Minor update in notebook.
 07 July 2024: First attempt, completed notebook.
