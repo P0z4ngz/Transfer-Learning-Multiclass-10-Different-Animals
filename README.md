@@ -1,7 +1,7 @@
 # Personal project exercise of Deep Learning CNN course
 
 ## Description
-By following the practical of a course Deep Learning TensorFlow, I decided to write my own notebook in [Google Colab](https://colab.research.google.com/) introducing computer vision multiclass 10 different animals from custom sorted dataset. Original dataset from [Kaggle Animals-10](https://www.kaggle.com/datasets/alessiocorrado99/animals10).
+By following the practical of a course Deep Learning TensorFlow, I decided to write my own notebook in [Google Colab](https://colab.research.google.com/) introducing image prediction of 10 multiclass of different animals from custom sorted dataset. Original dataset from [Kaggle Animals-10](https://www.kaggle.com/datasets/alessiocorrado99/animals10).
 
 ## Content
 The dataset consists of `1000` images from each class in **train**, `100` images from each class in **valid** & **test** set (spider, horse, butterfly, elephant, chicken, cow, squirrel, sheep, cat, and dog). I created 2 models with [**Functional API**](https://www.tensorflow.org/guide/keras/functional_api) for architecture flexibility combaine with base model from [`tf.keras.applications.EfficientNetB2`](https://www.tensorflow.org/api_docs/python/tf/keras/applications/EfficientNetB2). One with none trainable layers in `base model` and improvment model where I use **fine tuning** method in the `base model` to boost the performance if it's gain significant improvement in training set.
